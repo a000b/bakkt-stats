@@ -16,12 +16,12 @@ def get_info():
         
         mesg = (
             f"BAKKT stats:\n"
-            f"Czas :{data[2]}\n"
+            f"Czas : {data[2]}\n"
             f"Źródło : {url}\n"
-            f"Kontrakt :{data[0]}\n"
-            f"Cena :{data[1]}\n"
-            f"Zmiana :{data[3]}%\n"
-            f"Wolumen :{data[4]} BTC"
+            f"Kontrakt : {data[0]}\n"
+            f"Cena : {data[1]}\n"
+            f"Zmiana : {data[3]}%\n"
+            f"Wolumen : {data[4]} BTC"
 
                 )
     except:
