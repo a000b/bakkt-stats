@@ -21,12 +21,10 @@ def get_info():
             f"Kontrakt :{data[0]}\n"
             f"Cena :{data[1]}\n"
             f"Zmiana :{data[3]}%\n"
-            f"Wolumen :{data[4]} BTC\n"
+            f"Wolumen :{data[4]} BTC"
 
                 )
     except:
         mesg ='err'
         
     return(mesg)
-
-print(get_info())
